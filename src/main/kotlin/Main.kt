@@ -56,8 +56,8 @@ fun main(args: Array<String>) {
 
 
     //7
-   /* var counter=0;
-    while (counter<10)
+   /* var counter = 0;
+    while (counter < 10)
     {
         println("counter = ${counter}");
         counter++;
@@ -67,14 +67,14 @@ fun main(args: Array<String>) {
 
 
     //8
-    var counter=0;
-    var roll=0;
+    var counter = 0;
+    var roll = 0;
     do
     {
-    roll=Random().nextInt(6);
+    roll = Random().nextInt(6);
     println("После ${counter} бросков, roll равен ${roll}");
     counter++;
-    }while(roll!=0)
+    }while(roll != 0)
 
     //
 
@@ -84,7 +84,7 @@ fun main(args: Array<String>) {
     val range=1..10;
     for (i in range)
     {
-        println(Math.pow(i.toDouble(),2.0));
+        println(Math.pow(i.toDouble(), 2.0));
     }
     //
 
@@ -100,11 +100,11 @@ fun main(args: Array<String>) {
 
 
     //11
-    var sum=0;
+    var sum = 0;
     for(row in 1 until 8 step 2){
         for (column in 0 until 8)
         {
-            sum+=row*column;
+            sum += row * column;
         }
     }
     println(sum);
